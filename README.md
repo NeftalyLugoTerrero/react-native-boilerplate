@@ -18,19 +18,19 @@ A development machine set up for React Native by following [these instructions](
 
 Assuming you have all the requirements installed, you can setup and run the project by running:
 
-1.  Clone this repository,  `git clone https://github.com/NeftalyLT/react-native-boilerplate.git <your-project-name>`
-2.  Go to project's root directory,  `cd <your-project-name>`
-3.  Remove the previous git history (`.git`  folder),  `rm -rf .git`
-4.  Use  [React Native Rename](https://github.com/junedomingo/react-native-rename)  to update project name  `npx react-native-rename <newName>`
-5.  Run  `yarn`  or  `npm install`  to install dependencies
-6.  Connect a mobile device to your development machine
-7.  Run the application:
--   On Android:
-    -   Run  `npx react-native run-android`
--   On iOS:
-    -   Open  `ios/YourReactProject.xcodeproj`  in Xcode
-    -   Hit  `Run`  after selecting the desired device
-    - Or you can run the project using  `npx react-native run-ios`  inside the React Native project folder
+ 1. Clone this repository,  `git clone https://github.com/NeftalyLT/react-native-boilerplate.git <your-project-name>` 
+ 2. Go to project's root directory,  `cd <your-project-name>` 
+ 3. Remove the previous git history (`.git`  folder),  `rm -rf .git` 
+ 4. Use  [React Native Rename](https://github.com/junedomingo/react-native-rename)  to update project name  `npx react-native-rename <newName>` 
+ 5. Run  `yarn` or  `npm install`  to install dependencies 
+ 6. Connect a mobile device to your development machine 
+ 7. Run the application:
+	-   On Android:
+	    -   Run  `npx react-native run-android`
+	-   On iOS:
+	    -   Open  `ios/YourReactProject.xcodeproj`  in Xcode
+	    -   Hit  `Run`  after selecting the desired device
+	    -   Or you can run the project using  `npx react-native run-ios`  inside the React Native project folder
 
 > If you use the Yarn package manager, you can use `yarn` instead of `npx` when running React Native commands inside the project.
 
