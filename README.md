@@ -7,7 +7,7 @@ This boilerplate is structured based on the post [An efficient way to structure 
 ## Features
 
  - [React Native](https://facebook.github.io/react-native/) (0.61.5)
- - [React Navigation](https://reactnavigation.org/) (5.0.0) and other dependencies required
+ - [React Navigation](https://reactnavigation.org/) (5.0.0) and other required dependencies 
  - [Babel Plugin Module Resolver](https://github.com/tleunen/babel-plugin-module-resolver) (4.0.0) and other recommended dependencies to simplify the require/import of paths in the project
 
 ## Requirements
@@ -70,4 +70,11 @@ The directories we use to organize the `components`
 **Organisms:** The combination of molecules that work together or even with atoms that compose more elaborate interfaces.
 
 > In each component directory, we have an **index.js** file that exports the specified category.
-> *The App.js in the project root was removed, instead we use **[src/index.js](https://github.com/NeftalyLT/react-native-boilerplate/blob/master/src/index.js)***
+
+*Note: The **App.js** in the project root was removed, instead we use* **[src/index.js](https://github.com/NeftalyLT/react-native-boilerplate/blob/master/src/index.js)**
+
+## License
+
+This project is released under the  [MIT License](https://github.com/NeftalyLT/react-native-boilerplate/blob/master/LICENSE).
+
+Feel free to remove the LICENSE file and the "License" section from the README if your project is not open source.
